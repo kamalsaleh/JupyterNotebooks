@@ -5,6 +5,8 @@ USER root
 
 RUN apt-get update && apt-get install python3-pip -y
 
+RUN apt-get install texlive texlive-latex-extra pandoc
+
 RUN cd /home/gap/inst/gap-master/pkg \
     && git clone https://github.com/homalg-project/CddInterface \
     && cd CddInterface \

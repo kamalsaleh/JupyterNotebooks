@@ -6,6 +6,8 @@ USER root
 RUN apt-get update && apt-get install python3-pip -y
 RUN apt-get install texlive -y
 RUN apt-get install texlive-latex-extra -y
+RUN apt-get install texlive-generic-extra -y
+RUN apt-get install texlive-xetex -y
 RUN apt-get install pandoc -y
 
 RUN cd /home/gap/inst/gap-master/pkg \

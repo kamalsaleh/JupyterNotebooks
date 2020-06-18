@@ -4,8 +4,9 @@ MAINTAINER Kamal Saleh <kamal.saleh@uni-siegen.de>
 USER root
 
 RUN apt-get update && apt-get install python3-pip -y
-
-RUN apt-get install texlive texlive-latex-extra pandoc
+RUN apt-get install texlive -y
+RUN apt-get install texlive-latex-extra -y
+RUN apt-get install pandoc -y
 
 RUN cd /home/gap/inst/gap-master/pkg \
     && git clone https://github.com/homalg-project/CddInterface \

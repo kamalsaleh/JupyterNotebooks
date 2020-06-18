@@ -1,1 +1,1 @@
-You can execute the notebooks interactively online using [jupyter nbviewer](https://nbviewer.jupyter.org/github/kamalsaleh/Notebooks/tree/master/) by clicking the button `Execute on Binder` in the top-right corner of the webpage.
+You can execute the notebooks interactively online using [jupyter nbviewer](https://nbviewer.jupyter.org/github/kamalsaleh/JupyterNotebooks/tree/master/) by clicking the button `Execute on Binder` in the top-right corner of the webpage.

@@ -34,4 +34,4 @@ RUN cd /home/gap/inst/gap-master/pkg \
     && git clone https://github.com/homalg-project/TriangulatedCategories
 
 USER gap
-WORKDIR $HOME/inst/gap-master/pkg/
+WORKDIR $HOME/inst/gap-master/
